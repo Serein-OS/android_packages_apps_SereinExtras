@@ -55,4 +55,11 @@
          android:defaultValue="false"/>
      </PreferenceCategory>
 
+     <com.serein.extras.preferences.SystemSettingSwitchPreference
+        android:key="show_fourg_icon"
+        android:icon="@drawable/ic_fourg"
+        android:title="@string/show_fourg_icon_title"
+        android:summary="@string/show_fourg_icon_summary"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>
